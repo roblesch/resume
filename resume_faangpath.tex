@@ -1,0 +1,104 @@
+\documentclass{resume}
+% Margins
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
+\name{Christian Robles}
+\address{+1(909) 451-1716 \\ Los Angeles, CA} 
+\address{\href{mailto:roblesch@usc.edu}{roblesch@usc.edu} \\ \href{https://www.linkedin.com/in/roblesch}{linkedin.com/in/roblesch} \\
+\href{https://blog.roblesch.page}{blog.roblesch.page}}
+
+
+\begin{document}
+
+
+%	OBJECTIVE
+\begin{rSection}{OBJECTIVE}
+
+{Graduate Student with a passion for physically-based rendering and simulation seeking full-time roles and internships.}
+
+\end{rSection}
+
+
+%	EDUCATION 
+\begin{rSection}{Education}
+
+{\bf Master of Computer Science}, University of Southern California \hfill{Expected May 2023} \\
+Concentration in Multimedia and Creative Technologies \hfill{GPA: 3.7} \\[7pt]
+Relevant Coursework: Probability, Computer Animation and Simulation, 3-D Graphics and Rendering
+
+{\bf Bachelor of Computer Science}, Arizona State University \hfill{2013 - 2017}
+\end{rSection}
+
+
+% TECHINICAL STRENGTHS	
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & C++, Python, TypeScript, R, Go,  Java \\
+Standards and Frameworks & Open Image Denoise, MaterialX, glTF, Unity, OpenGL, Qt, CMake, LaTeX
+\end{tabular}
+
+\end{rSection}
+
+
+% EXPERIENCE
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Software Engineer Intern}\hfill Summer 2022 \\
+Autodesk, Graphics Platform Team \hfill \textit{San Francisco, CA (Remote)}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Enhanced MaterialX with translation between Autodesk Standard Surface and glTF PBR material standards.
+     \item Developed an automated translation and rendering pipeline to verify translations on over 350 materials.
+    \item Provided the translation node graph to MaterialX as an open-source contribution. \href{https://blog.roblesch.page/blog/2022/09/02/summer-standards.html}{(Project Details)}
+ \end{itemize}
+ 
+\textbf{Software Engineer II}\hfill Jul 2017 - Jul 2021 \\
+Microsoft, Commercial Software Engineering \hfill \textit{Cambridge, MA}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Worked directly with enterprise and not-for-profit partners to tackle their most significant technical challenges.
+     \item Implemented featurization pipelines to prove the efficacy of treatments for children with Cystic Fibrosis.
+     \item Assisted partners in transitioning critical infrastructure to meet stringent regulatory deadlines.
+ \end{itemize}
+
+\end{rSection}
+
+
+% PROJECTS
+\begin{rSection}{PROJECTS}
+
+\vspace{-1.25em}
+\item \textbf{RRS: Albedo to EARS.} {Implementing a Monte Carlo Path Tracer demonstrating state-of-the-art Russian Roulette \& Splitting techniques under the advisory of Professor Ulrich Neumann. Exploring cutting edge techniques for iterative optimization of threshold parameters with respect to estimator efficiency and ground-truth approximations with Intel Open Image Denoise. Sharing progress with bi-weekly blog posts on personal site. \href{https://blog.roblesch.page/assets/roblesch_project_proposal.pdf}{(Project proposal)}}
+\item \textbf{Grandma Green.} {Developing a virtual pet and farming simulation game in Unity through USC's Advanced Game Projects program. Designed and implemented performant data structures and routines for plant growth cycles, genotype expression, sprite resolution and garden serialization.}
+\item \textbf{Ray Marching.} {Led the design and development of a ray-marched renderer demonstrating procedural materials, displacement surfaces, fractals and GPU acceleration with CUDA. Presented results as a final presentation and report for Professor Neumann's 3D Graphics and Rendering course. \href{https://blog.roblesch.page/blog/2022/04/30/ray-marching.html}{(Report and slides)}}
+\item \textbf{Multiple Importance Sampling.} {A review of Veach's thesis and exploration of fundamental techniques in Monte Carlo Integration and Multiple Importance Sampling. Implemented extensions and augmentations to the renderer described in Peter Shirley's \textit{Ray Tracing} series to demonstrate Multiple Importance techniques. \href{https://blog.roblesch.page/blog/2022/02/08/multiple-importance.html}{(Blog post)}}
+
+\end{rSection} 
+
+
+%---
+%\begin{rSection}{Extra-Curricular Activities} 
+%\begin{itemize}
+%    \item 	Actively write \href{https://blog.roblesch.page/}{blog posts} about personal and academic projects in Path Tracing and Computer Graphics 
+%    \item	Sample bullet point.
+%\end{itemize}
+
+%\end{rSection}
+
+
+% LEADERSHIP
+\begin{rSection}{VOLUNTEERING}
+
+\begin{itemize}
+    \item Taught AP Computer Science A to a class of Junior and Senior High School students at the Cambridge Rindge \& Latin School through the Microsoft \href{https://www.microsoft.com/en-us/teals}{TEALS} Program in the 2020-2021 school year.
+\end{itemize}
+
+\end{rSection}
+
+
+\end{document}
+
